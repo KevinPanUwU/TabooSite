@@ -1,0 +1,40 @@
+/* App-specific styles */
+
+/* Card hover lift effect */
+.flip-card {
+  transition: transform 0.3s ease;
+}
+
+.flip-card:hover {
+  transform: translateY(-4px);
+}
+
+/* Ensure smooth flip animation */
+.flip-card-inner {
+  will-change: transform;
+}
+
+/* Better image handling */
+.flip-card img {
+  transition: transform 0.3s ease;
+}
+
+.flip-card:hover img {
+  transform: scale(1.02);
+}
+
+/* Responsive card height */
+@media (max-width: 768px) {
+  .flip-card {
+    height: 480px;
+  }
+}
+
+/* Clean focus states */
+.flip-card:focus {
+  outline: none;
+}
+
+.flip-card:focus .flip-card-inner {
+  box-shadow: 0 0 0 3px rgba(132, 204, 22, 0.3);
+}
