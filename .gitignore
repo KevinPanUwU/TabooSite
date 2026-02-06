@@ -37,3 +37,4 @@ coverage/
 
 # Electron
 out/
+node_modules
