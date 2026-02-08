@@ -14,7 +14,8 @@
     "electron:run": "npm run build && npx electron electron.cjs",
     "dist": "npm run build && electron-builder --win portable -p never",
     "dist:linux": "npm run build && electron-builder --linux AppImage -p never",
-    "dist:all": "npm run build && electron-builder --win portable --linux AppImage -p never"
+    "dist:all": "npm run build && electron-builder --win portable --linux AppImage -p never",
+    "dist:mac": "npm run build && electron-builder --mac -p never"
   },
   "build": {
     "appId": "com.yourcompany.myapp",
@@ -32,6 +33,10 @@
     },
     "linux": {
       "target": "AppImage"
+    },
+    "mac": {
+      "target": ["dmg", "zip"],
+      "category": "public.app-category.education"
     }
   },
   "dependencies": {

@@ -14,25 +14,25 @@ const timeline = [
     reflection: 'The historical scale of discrimination was shocking—from slavery to the Holocaust to modern segregation camps.'
   },
   {
-    week: 'Week 3',
+    week: 'Week 2',
     title: 'Film Analysis',
     description: 'Watched The Hunchback of Notre Dame multiple times, analyzing scenes, lyrics, and character design for stereotypes.',
     reflection: 'Songs we sang as children, like "Hellfire," contain deeply disturbing messages about scapegoating and demonization.'
   },
   {
-    week: 'Week 4',
+    week: 'Week 3',
     title: 'Creative Concept Development',
     description: 'Brainstormed ways to make the invisible visible. Decided on the Esmeralda/Cinderella comparison as most impactful.',
     reflection: 'We wanted viewers to feel the contrast viscerally, not just intellectually understand it.'
   },
   {
-    week: 'Week 5-6',
+    week: 'Week 4',
     title: 'Building the Project',
     description: 'Created the interactive flashcards, wrote content, and designed the website.',
     reflection: 'Technical challenges were frustrating but seeing the final product come together was rewarding.'
   },
   {
-    week: 'Week 7',
+    week: 'Week 4',
     title: 'Reflection & Documentation',
     description: 'Documented our learning journey, collected peer feedback, and prepared final presentation.',
     reflection: 'This project changed how we watch media. We now question representation in everything we see.'
